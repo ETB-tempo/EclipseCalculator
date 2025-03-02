@@ -9,8 +9,7 @@ public class CalculatorEngine implements ActionListener {
 		char selectedAction = ' ';  // +, -, /, или * 
 		double currentResult =0;    
 		
-// Конструктор сохраняет ссылку на окно калькулятора 
-// в переменной экземпляра класса 
+
 		CalculatorEngine(Calculator parent){ 
 			this.parent = parent; 
 		} 
